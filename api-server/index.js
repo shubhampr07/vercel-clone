@@ -37,7 +37,7 @@ const ecsClient = new ECSClient({
 
 const config = {
     CLUSTER: '',
-    TASK: 'arn:aws:ecs:ap-south-1:562552893446:task-definition/builder-task1'
+    TASK: ''
 }
 
 app.use(express.json())
