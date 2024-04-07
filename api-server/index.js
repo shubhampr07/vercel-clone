@@ -36,7 +36,7 @@ const ecsClient = new ECSClient({
 })
 
 const config = {
-    CLUSTER: 'arn:aws:ecs:ap-south-1:562552893446:cluster/builder-cluster',
+    CLUSTER: '',
     TASK: 'arn:aws:ecs:ap-south-1:562552893446:task-definition/builder-task1'
 }
 
